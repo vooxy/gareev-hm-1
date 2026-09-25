@@ -1,0 +1,14 @@
+# Виртуальное окружение Python
+.venv/
+__pycache__/
+*.pyc
+
+# Секреты — никогда не в Git
+.env
+
+# Локальные данные
+data/*.json
+!data/*.example.json
+
+# Мусор macOS
+.DS_Store

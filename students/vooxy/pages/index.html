@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow — инженер vooxy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>TaskFlow</h1>
+    <p>Карточка инженера команды</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Салахов Карим</h2>
+      <p><b>Группа:</b> П-311</p>
+      <p><b>GitHub:</b> <a href="https://github.com/vooxy">vooxy</a></p>
+      <p><b>Роль:</b> Junior-инженер (онбординг)</p>
+    </section>
+
+    <section class="card">
+      <h2>Чему я научился на первом занятии</h2>
+      <ul>
+        <li>Настраивать Git и работать с удалённым репозиторием</li>
+        <li>Делать снимки: <code>git add</code> → <code>git commit</code></li>
+        <li>Создавать ветки и открывать Pull Request</li>
+        <li>Решать конфликты слияния</li>
+        <li>Работать по модели Git Flow</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Git Flow в двух словах</h2>
+      <table>
+        <tr><th>Ветка</th><th>Зачем</th></tr>
+        <tr><td><code>main</code></td><td>Боевая версия</td></tr>
+        <tr><td><code>develop</code></td><td>Сборка следующего релиза</td></tr>
+        <tr><td><code>feature/*</code></td><td>Одна задача → PR в develop</td></tr>
+        <tr><td><code>release/*</code></td><td>Подготовка релиза</td></tr>
+        <tr><td><code>hotfix/*</code></td><td>Срочный фикс прода</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Сделано в ветке <code>feature/vooxy-hw1</code> по Git Flow</p>
+  </footer>
+</body>
+</html>
